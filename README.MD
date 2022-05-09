@@ -21,17 +21,17 @@ First line starts with four integers n,m,q,s separated by single spaces. where n
 m the number of edges, q the number of queries and s the index of the starting node. Nodes are numbered from 0 to n−1.
 Then follow m lines, each line consisting of three (space-separated) integers u, v and w indicating that there is an 
 edge from u to v in the graph with weight w. Then follow q lines of queries, each consisting of a single integer.
-Example format for an input graph with queries:
-n m q s
-u_0 v_0 w_0
-u_1 v_1 w_1
+Example format for an input graph with queries:.
+n m q s.
+u_0 v_0 w_0.
+u_1 v_1 w_1.
 ...
-u_m v_m w_m
-t_0
-t_1
-...
-t_q
-tests folder includes test cases each with a different number of nodes starting from 5 nodes to 10000 nodes:
+u_m v_m w_m.
+t_0.
+t_1.
+....
+t_q.
+tests folder includes test cases each with a different number of nodes starting from 5 nodes to 10000 nodes:.
 - test5.in
 - test10.in
 - test100.in
