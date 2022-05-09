@@ -50,14 +50,14 @@ On kattis, it takes 0.08s for the solution to get accepted with a priority queue
 This is because Kattis does not use graphs large enough to demonstrate Hollow heaps' effeciency
 
 # File Summary
-dijkstra.cpp: includes Dijkstra's algorithm from the U of A programming club repo<br>
-generateTests.cpp: script I used to generate the test cases for dijkstra<br>
-hollowHeap.cpp: Hollow heap class implementation<br>
-hollowHeap.h: Hollow heap class header file<br>
-node.cpp: Node class implementation<br>
-node.h: Node class header file<br>
-item.cpp: item class implementation<br>
-item.h: item class header file<br>
-shortestpath1.cpp: solution to the kattis problem shortestpath1 with a hollow heap<br>
-testHH.pp: unit tests for the hollow heap operations<br>
-main.cpp: run dijkstra with the hollow heap on an input test case<br>
+**dijkstra.cpp:** includes Dijkstra's algorithm from the U of A programming club repo<br>
+**generateTests.cpp:** script I used to generate the test cases for dijkstra<br>
+**hollowHeap.cpp:** Hollow heap class implementation<br>
+**hollowHeap.h:** Hollow heap class header file<br>
+**node.cpp:** Node class implementation<br>
+**node.h:** Node class header file<br>
+**item.cpp:** item class implementation<br>
+**item.h:** item class header file<br>
+**shortestpath1.cpp:** solution to the kattis problem shortestpath1 with a hollow heap<br>
+**testHH.pp:** unit tests for the hollow heap operations<br>
+**main.cpp:** run dijkstra with the hollow heap on an input test case<br>
