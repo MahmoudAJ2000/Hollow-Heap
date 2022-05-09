@@ -20,24 +20,24 @@ Test case format for dijkstra have a format similar to the kattis problem, but i
 First line starts with four integers n,m,q,s separated by single spaces. where n is the numbers of nodes in the graph, 
 m the number of edges, q the number of queries and s the index of the starting node. Nodes are numbered from 0 to n−1.
 Then follow m lines, each line consisting of three (space-separated) integers u, v and w indicating that there is an 
-edge from u to v in the graph with weight w. Then follow q lines of queries, each consisting of a single integer.
-Example format for an input graph with queries:
+edge from u to v in the graph with weight w. Then follow q lines of queries, each consisting of a single integer.<br>
+Example format for an input graph with queries:<br>
 n m q s<br>
-u_0 v_0 w_0
-u_1 v_1 w_1
-...
-u_m v_m w_m
-t_0
-t_1
-...
-t_q
-tests folder includes test cases each with a different number of nodes starting from 5 nodes to 10000 nodes:.
+u_0 v_0 w_0<br>
+u_1 v_1 w_1<br>
+...<br>
+u_m v_m w_m<br>
+t_0<br>
+t_1<br>
+...<br>
+t_q<br>
+tests folder includes test cases each with a different number of nodes starting from 5 nodes to 10000 nodes:
 - test5.in
 - test10.in
 - test100.in
 - test500.in
 - test1k.in
-- test10k.in
+- test10k.in<br>
 To run a test case, simply run the exceutable with the test case i.e. "./dijkstra.out < tests/test10k.in"
 output from this file has the format "Distance from u to v is d" or "No path from u to v was found" for each query.
 
