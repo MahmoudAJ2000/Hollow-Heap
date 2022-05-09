@@ -20,8 +20,8 @@ Test case format for dijkstra have a format similar to the kattis problem, but i
 First line starts with four integers n,m,q,s separated by single spaces. where n is the numbers of nodes in the graph, 
 m the number of edges, q the number of queries and s the index of the starting node. Nodes are numbered from 0 to n−1.
 Then follow m lines, each line consisting of three (space-separated) integers u, v and w indicating that there is an 
-edge from u to v in the graph with weight w. Then follow q lines of queries, each consisting of a single integer.<br>
-Example format for an input graph with queries:<br>
+edge from u to v in the graph with weight w. Then follow q lines of queries, each consisting of a single integer.<br><br>
+Example format for an input graph with queries:<br><br>
 n m q s<br>
 u_0 v_0 w_0<br>
 u_1 v_1 w_1<br>
@@ -30,7 +30,7 @@ u_m v_m w_m<br>
 t_0<br>
 t_1<br>
 ...<br>
-t_q<br>
+t_q<br><br>
 tests folder includes test cases each with a different number of nodes starting from 5 nodes to 10000 nodes:
 - test5.in
 - test10.in
